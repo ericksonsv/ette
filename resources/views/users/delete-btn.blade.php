@@ -1,0 +1,2 @@
+{{-- <a href="#" wire:click.stop.prevent="redirectToModel('admin.auth.user.edit', [{{ $user }}])" class="font-medium">{{ $user->name }}</a> --}}
+<x-tables.delete-button wire:click.stop.prevent="removeRow({{$row}})" href="#" :text="__('Delete')" onclick="confirm('¿Deseas eliminar este usuario?') || event.stopImmediatePropagation()" />

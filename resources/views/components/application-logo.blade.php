@@ -1,0 +1,1 @@
+<img {{ $attributes->class(['w-auto']) }} src="{{ asset('img/edwinlogo.png') }}" alt="Edwin Tranfers">
